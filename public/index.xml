@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AdroitSf Blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on AdroitSf Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Nov 2023 13:12:36 +1300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightning Knowledge 101</title>
+      <link>http://localhost:1313/posts/knowledge101/</link>
+      <pubDate>Sun, 12 Nov 2023 13:12:36 +1300</pubDate>
+      <guid>http://localhost:1313/posts/knowledge101/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>What is AdroitSF What can you at AdroitSF Why should you signup </description>
+    </item>
+    <item>
+      <title>Manifest</title>
+      <link>http://localhost:1313/manifest/index.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/manifest/index.json</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

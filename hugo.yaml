@@ -1,0 +1,13 @@
+baseURL: https://blog.adroitsf.com/       # Change to your website URL
+title: AdroitSf Blog # Change to your website title
+languageCode: en-us
+theme: kidlat
+
+params:
+  short_title: AdroitSf.com Blog           # Change to your website short title
+  display_name: blog.AdroitSF.com               # Change to your website display name
+  license: All original content copyrighted AdroitSF.com # Change to your website license
+  license_url:  # Change to your license URL
+  description: "AdroitSF is a job board for Salesforce.com technologies. This blog site provides thought leadership and content related to Salesforce.com technologies." # Change to your website description
+  logo: "/example-news.jpg" # The logo should be inside your static folder
+  footer: <span><a href="https://adroitsf.com/">copyright AdroitSF.com</a></span> <span><a href="#top">▲</a></span> # Change to your footer text and link
