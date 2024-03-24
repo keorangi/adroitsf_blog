@@ -6,27 +6,48 @@
     <description>Recent content in Tags on AdroitSf Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Nov 2023 13:12:36 +1300</lastBuildDate>
+    <lastBuildDate>Tue, 28 Sep 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Basics</title>
-      <link>http://localhost:1313/tags/basics/</link>
-      <pubDate>Sun, 12 Nov 2023 13:12:36 +1300</pubDate>
-      <guid>http://localhost:1313/tags/basics/</guid>
+      <title>Creative Commons</title>
+      <link>http://localhost:1313/tags/creative-commons/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/creative-commons/</guid>
       <description></description>
     </item>
     <item>
-      <title>Service Cloud</title>
-      <link>http://localhost:1313/tags/service-cloud/</link>
-      <pubDate>Sun, 12 Nov 2023 13:12:36 +1300</pubDate>
-      <guid>http://localhost:1313/tags/service-cloud/</guid>
+      <title>Fake News</title>
+      <link>http://localhost:1313/tags/fake-news/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/fake-news/</guid>
       <description></description>
     </item>
     <item>
-      <title>Support</title>
-      <link>http://localhost:1313/tags/support/</link>
-      <pubDate>Sun, 12 Nov 2023 13:12:36 +1300</pubDate>
-      <guid>http://localhost:1313/tags/support/</guid>
+      <title>Kidlat News</title>
+      <link>http://localhost:1313/tags/kidlat-news/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kidlat-news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Minimalist</title>
+      <link>http://localhost:1313/tags/minimalist/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/minimalist/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Satire</title>
+      <link>http://localhost:1313/tags/satire/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/satire/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Text-Only Websites</title>
+      <link>http://localhost:1313/tags/text-only-websites/</link>
+      <pubDate>Tue, 28 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/text-only-websites/</guid>
       <description></description>
     </item>
   </channel>

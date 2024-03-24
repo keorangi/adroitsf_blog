@@ -1,12 +1,14 @@
 ---
-title: "Lightning Knowledge 101"
-date: 2023-11-12T13:12:36+13:00
+title: "Salesforce Industries CPQ 101"
+description: "An Introduction to Salesforce Industries CPQ"
+content_type: Article
+author: ["Adroit SF"]
+date: 2021-09-28
+images:
+- /images/quote-cpq101.jpg
 tags:
-  - service cloud
-  - basics
-  - support
-image:
-comments: false
-description: ""
+- Configure Price Quote
+- Salesforce Industries
+- CPQ
 ---
 
