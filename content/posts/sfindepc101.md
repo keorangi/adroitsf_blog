@@ -1,6 +1,6 @@
 ---
-title: "Salesforce Industries CPQ 101"
-description: "An Introduction to Salesforce Industries CPQ"
+title: "EPC: The underlying datamodel"
+description: "Understanding the underlying datamodel"
 content_type: BlogPosting
 author: ["Adroit SF"]
 date: 2021-09-28
@@ -10,6 +10,7 @@ tags:
 - Configure Price Quote
 - Salesforce Industries
 - CPQ
+- EPC
 ---
 
-![alt text](/images/quote-cpq101.jpg "Title")
+
