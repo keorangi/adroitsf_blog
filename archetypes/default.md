@@ -1,12 +1,16 @@
 ---
-title: "{{ replace (replace .Name "-" " ") "_" " " | title }}"
+# author: 
+title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
-description: ""
-tags:
-  - tag1
-  - tag2
-  - tag3
-image:
-comments: false
+draft: true
+# layout: 
+# description: 
+# tags: 
+# icon: 
+# thumbnail: 
+    # url: 
+    # author: 
+    # authorURL: 
+    # origin: 
+    # originURL: 
 ---
-
