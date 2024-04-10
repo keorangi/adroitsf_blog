@@ -1,7 +1,7 @@
 # Basic config
 baseURL = "https://blog.adroitsf.com"
 theme = "hugo-bearcub"
-copyright = "Adroit SF"
+copyright = "AdroitSF.com (2024 - )"
 defaultContentLanguage = "en"
 
 # Generate a nice robots.txt for SEO
@@ -28,7 +28,7 @@ enableRobotsTXT = true
     LanguageCode = "en-US"
     contentDir = "content"
     [languages.en.params]
-      madeWith = "Made with [Bear Cub](https://github.com/clente/hugo-bearcub)"
+      madeWith = "keeping the web handcrafted 🖍️ in the age of AI 🤖"
 
 [params]
   # The description of your website
