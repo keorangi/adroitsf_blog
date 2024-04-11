@@ -5,6 +5,7 @@ content_type: BlogPosting
 summary: ""
 author: AdroitSF.com
 date: 2021-09-28
+draft: true
 images:
 - /images/quote-cpq101.jpg
 tags:
