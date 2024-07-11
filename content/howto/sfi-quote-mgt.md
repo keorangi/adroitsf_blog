@@ -5,6 +5,7 @@ content_type: BlogPosting
 summary: ""
 author: AdroitSF
 date: 2024-04-11
+draft: true
 # images:
 tags:
 - cpq

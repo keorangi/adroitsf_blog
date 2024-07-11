@@ -7,6 +7,7 @@ summary: "This post explores the findings on trying to spin up a EnU cloud using
 the DX configuration."
 author: AdroitSF
 date: 2024-06-10
+draft: true
 # images:
 tags:
 - cpq

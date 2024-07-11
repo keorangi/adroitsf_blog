@@ -5,6 +5,7 @@ content_type: BlogPosting
 summary: "using SOQL keywords to do the heavy lifting show improvements in Apex development outcomes."
 author: AdroitSF
 date: 2024-04-11
+draft: true
 # images:
 tags:
 - apex
