@@ -14,7 +14,7 @@ content_type: BlogPosting
 summary: "Energy and Utilities Cloud Customer Data Model Fundamental Notes"
 author: AdroitSF
 date: 2024-04-11
-draft: true
+draft: false
 # images:
 tags:
 - industries
