@@ -1,81 +1,139 @@
-# Basic config
-baseURL = "https://blog.adroitsf.com"
-theme = "hugo-bearcub"
-copyright = "AdroitSF.com (2024 - )"
-defaultContentLanguage = "en"
+baseurl = "https://adroitsf.com"
+title = "AdroitSF"
+theme = "hugo-theme-cleanwhite"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+googleAnalytics = "G-1G0SXHHXWX"
+preserveTaxonomyNames = true
+paginate = 5 #frontpage pagination
+hasCJKLanguage = true
 
-# Generate a nice robots.txt for SEO
-enableRobotsTXT = true
-
-# Setup syntax highlighting without inline styles. For more information about
-# why you'd want to avoid inline styles, see
-# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src#unsafe_inline_styles
-[markup]
-  [markup.highlight]
-    lineNos = true
-    lineNumbersInTable = false
-    # This allows Bear Cub to use a variation of Dracula that is more accessible
-    # to people with poor eyesight. For more information about color contrast
-    # and accessibility, see https://web.dev/color-and-contrast-accessibility/
-    noClasses = false
-
-# Multilingual mode config. More for information about how to setup translation,
-# see https://gohugo.io/content-management/multilingual/
-[languages]
-  [languages.en]
-    title = "blog.AdroitSF.com"
-    languageName = "en-US 🇺🇸"
-    LanguageCode = "en-US"
-    contentDir = "content"
-    [languages.en.params]
-      madeWith = "keeping the web handcrafted 🖍️ in the age of AI 🤖"
+[outputs]
+home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  # The description of your website
-  description = "The AdroitSF Blog which posts technical writing on Salesforce.com focussing on best practices, patterns, techniques and use cases."
+  header_image = "img/home-bg.jpg"
+  SEOTitle = "Implementation Notes for Salesforce Projects | AdroitSF.com"
+  description = "AdroitSF tech blog featuring implementation notes and best practices for emerging Salesforce.com technologies. The blog notes contain notes from reallife implementations and other patterns that are useful in Salesforce.com projects"
+  keyword = "Salesforce.com implementation, Design Patterns, Design Approaches, Salesforce features implementation"
+  slogan = "know your tools well;keep them sharp"
+  upstreamAttribution = true
 
-  # The path to your favicon
-  favicon = "images/favicon.png"
+  image_404 = "img/404-bg.jpg"
+  title_404 = "Wrong Way - Go Back"
+  omit_categories = false
 
-  # These images will show up when services want to generate a preview of a link
-  # to your site. Ignored if `generateSocialCard = true`. For more information
-  # about previews, see https://gohugo.io/templates/internal#twitter-cards and
-  # https://gohugo.io/templates/internal#open-graph
-  images = ["images/share.webp"]
+  # leancloud storage for page view counter
+  page_view_counter = false
+  leancloud_app_id = ""
+  leancloud_app_key = ""
 
-  # This title is used as the site_name on the Hugo's internal opengraph
-  # structured data template
-  title = "Blog.AdroitSF.com"
+  # algolia site search
+  algolia_search = false
+  algolia_appId = ""
+  algolia_indexName = ""
+  algolia_apiKey = ""
 
-  # Dates are displayed following the format below. For more information about
-  # formatting, see https://gohugo.io/functions/format/
-  dateFormat = "2006-01-02"
+  # Sidebar settings
+  # sidebar_about_description = "Clever patterns for Salesforce Implementations"
+  # sidebar_avatar = "img/avatar-zhaohuabing.jpg"      # use absolute URL, seeing it's used in both `/` and `/about/`
+  # sidebar_avatar = "img/zhaohuabing.png"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
-  # If your blog is multilingual but you haven't translated a page, this theme
-  # will create a disabled link. By setting `hideUntranslated` to true, you can
-  # have the theme simply not show any link
-  hideUntranslated = false
+  featured_tags = true 
+  featured_condition_size = 1 
 
-  # (EXPERIMENTAL) This theme has two options for its CSS styles: "original" and
-  # "herman". The former is what you see on Bear Cub's demo (an optimized
-  # version of Hugo Bear Blog), while the latter has a more modern look based on
-  # Herman Martinus's version of the Blogster Minimal theme for Astro.
-  themeStyle = "original"
+  # Baidu Analytics
+  ba_track_id = ""
+  
+  # We need a proxy to access Disqus api in China
+  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
+  disqus_proxy = ""
+  disqus_site = ""
 
-  # (EXPERIMENTAL) This theme is capable of dynamically generating social cards
-  # for posts that don't have `images` defined in their front matter; By setting
-  # `generateSocialCard` to false, you can prevent this behavior. For more
-  # information see layouts/partials/social_card.html
-  generateSocialCard = true
+  # Twikoo comments
+  # Follow https://twikoo.js.org/ to set up your own env_id
+  twikoo_env_id = ""
 
-  # Social media. Delete any item you aren't using to make sure it won't show up
-  # in your website's metadata.
+  # Artalk comments
+  # Follow https://artalk.js.org/ to set up your own server
+  artalk_enable = true
+  artalk_server = "https://xxx.xxx.com"
+  artalk_site = "xxx blog"
+
+  #Enable wechat pay & alipay to allow readers send reward money if they like the articles 
+  reward = true 
+  # reward_guide = "如果这篇文章对你有用,请随意打赏" 
+
+  friends = false
+  bookmarks = false
+  about_me = true
+
+  # Include any custom CSS and/or JS files, url or relative to /static folder
+  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
+  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
+
   [params.social]
-    twitter = "example" # Twitter handle (without '@')
-    facebook_admin = "0000000000" # Facebook Page Admin ID
+  rss            = true 
+  # email          = "youremail@gmail.com"
+  #facebook      = "full profile url in facebook"
+  #googleplus    = "full profile url in googleplus"
+  #twitter       = "full profile url in twitter"
+  # linkedin       = "https://www.linkedin.com/in/yourlinkedinid"
+  # stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
+  #instagram     = "full profile url in instagram"
+  github         = "https://github.com/AdroitSF"
+  # wechat         = "your wechat qr code image"
+  #medium        = "full profile url in medium"
+  #slack         = "full workspace url in slack"
+  #pinterest     = "full profile url in pinterest"
+  #reddit        = "full profile url in reddit"
+  #gitlab        = "full profile url in gitlab"
+  #mastodon      = "full profile url in mastodon"
+  #keybase       = "full profile url in keybase"
+  #xing          = "https://www.xing.com/profile/yourxingid"
+  #git           = "full profile url for git user"
+  
+  [[params.friend_link]]
+  # title = "prasanthabr"
+  # href =  "https://prasanthabr.github.io"
 
-  # Author metadata. This is mostly used for the RSS feed of your site, but the
-  # email is also added to the footer of each post
-  [params.author]
-    name = "AdroitSF" # Your name as shown in the RSS feed metadata
-    email = "hello[at]adroitsf.com" # Added to the footer so readers can reply to posts
+  [[params.bookmark_link]]
+  title =  "Martin Fowler"
+  href =  "https://martinfowler.com"
+  [[params.bookmark_link]]
+  title = "ServiceMesher"
+  href =  "http://www.servicemesher.com"
+  [[params.bookmark_link]]
+  title =  "Pxhere"
+  href = "https://pxhere.com"
+  [[params.bookmark_link]]
+  title = "unsplash"
+  href = "https://unsplash.com"
+  
+  [[params.addtional_menus]]
+  title =  "ARCHIVE"
+  href =  "/archive/"
+  [[params.addtional_menus]]
+  title =  "NOTES"
+  href =  "/notes/"
+  [[params.addtional_menus]]
+  title =  "ABOUT"
+  href =  "/about/"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+params = ["categories", "tags"] 
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 2
+    startLevel = 1
+  [markup.highlight]
+    style = "dracula"
