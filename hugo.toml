@@ -103,6 +103,10 @@ home = ["HTML", "RSS", "Algolia"]
   [[params.bookmark_link]]
   title =  "Martin Fowler"
   href =  "https://martinfowler.com"
+
+  [[params.bookmark_link]]
+  title =  "Joys of Apex"
+  href =  "https://www.jamessimone.net/blog/joys-of-apex/"
   
   [[params.addtional_menus]]
   title =  "ARCHIVE"
