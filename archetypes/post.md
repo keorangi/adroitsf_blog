@@ -1,10 +1,12 @@
 ---
-title:       "An Example Post"
+title:       '{{ replace .File.ContentBaseName `-` ` ` | title }}'
 subtitle:    ""
 description: ""
-date:        2018-06-04
+date:        '{{ .Date }}'
 author:      ""
 image:       ""
+published: true
 tags:        ["tag1", "tag2"]
+URL: "/"
 categories:  ["Tech" ]
 ---

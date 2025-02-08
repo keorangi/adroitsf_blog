@@ -7,6 +7,15 @@
     col-xs-12
     sidebar-container
 ">
+{{ if .Site.Params.featured_search }}
+<section>
+    <div class="search">
+        <script async src="https://cse.google.com/cse.js?cx=46d018a0147eb4aca">
+        </script>
+        <div class="gcse-search"></div>
+    </div>
+</section>
+{{ end }}
     <!-- Featured Tags -->
     {{ if .Site.Params.featured_tags }}
     <section>
