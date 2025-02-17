@@ -76,6 +76,52 @@ parity, there should be an analysis on offering alternatives.
 
 # How may we approach Voice Cloud Implementation development?
 
+### Context
+
+The client would usually have a reference telephony system that he compares our
+work with.  
+What I have found most beneficial as a start is to understand the scope and workflows of the business. 
+Based on which a show and tell approach usually works well.  
+The downside to this approach is when we have multiple stakeholders, there is
+bound to be a certain amount of rework as the team reconciles with how things
+are done.  
+Understanding the workflows would help in articulating why a certain approach is
+best and also helps guide the development.  
+Voice channel also would be an addition on a larger service implementation or
+even a case management implementation.  
+
+### Choose the target scope
+
+Determine from the client the user groups or personas that would be part of
+this implementation.
+Typically the personas would be
+    1. Call taking agent
+    2. Team Manager
+    3. Workforce Management Team
+    4. Salesforce admins
+
+Team Managers would have agents reporting into them.
+Workforce Management and Salesforce Admins would have responsibility across
+teams.  
+
+Determine from the client whether these users have a certain Salesforce app that
+they operate in.  
+It is best to take over an existing app when just implementing voice.
+
+Why?  
+1. We want to ringfence the area in which we are responsible. Business users are
+   usually very sensitive to UI elements like layouts etc. Its best to reduce
+the surface area we are responsible for.
+2. Voice is just adding one more channel of interaction. We do not want to be on
+   the hook for implementing an entire support strategy. This is primarily so we
+are able to bring closure to specific features we are responsible for.  
+3. Using an existing app makes change management slightly more easier to deal
+   with.
+
+### Determine record access 
+
+
+
 # How may we approach Voice Cloud Implementation deployment?
 
 # Other technical details
