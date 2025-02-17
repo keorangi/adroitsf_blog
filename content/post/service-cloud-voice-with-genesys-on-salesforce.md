@@ -11,6 +11,12 @@ URL: "/2025/feb/07/service-voice-cloud"
 categories:  ["Service Cloud" ]
 ---
 
+** Please note this document is work in progress; am updating as and when i get
+time **
+** Once the document is filled in, will clean up to make sure the thought are
+coherent. At the moment, there are reminders for me as headings and key points.
+**
+
 #### tl;dr
 These are the notes from a recent implementation of Service Cloud Voice.  
 Integrating Genesys telephony to an org implementing Industries Finance Cloud.  
