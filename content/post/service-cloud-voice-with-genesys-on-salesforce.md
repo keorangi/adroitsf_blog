@@ -8,7 +8,7 @@ image:       "/img/service-voice-cloud/bg.jpg"
 published: true
 tags:        ["Service Cloud", "Genesys", "Voice", "Omni Channel", "Contact Center Integration", "Telephony Integration"]
 URL: "/2025/feb/07/service-voice-cloud"
-categories:  ["Service Cloud", "Contact Center Solutions" ]
+categories:  ["Epic" ]
 ---
 
 **Please note this document is work in progress; am updating as and when I get time**
